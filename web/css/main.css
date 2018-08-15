@@ -1,0 +1,136 @@
+body{
+	font-family:'open sans', sans-serif;
+}
+header{
+	float:left;
+        margin:0 0 30px 0;
+        padding:5px 0 0 0;
+        width:100%;
+	  background:#001f46;
+	  position: fixed;
+          font-family: 'Oswald', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+#logo{
+	text-align: center;
+	color:#fff;
+}
+nav a, nav a:visited{
+    color:#fff;
+    text-decoration: none;
+}
+#wrapper{
+	margin-top:25px;
+	padding-top: 10%;
+	max-width: 1200px;
+	margin:0 auto;
+	padding:0 5%;
+}
+nav{
+	text-align: center;
+	padding:10px 0;
+	margin:20px 0 0;
+	background-color: #599a68;
+}
+nav ul{
+	padding:0;
+	margin:0 10px;
+	list-style: none;
+}
+nav li{
+	display:inline-block;
+}
+nav a{
+	font-weight:800;
+	padding:15px 10px;
+}
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top:50px;
+	color:#ccc;
+	clear:both;
+}
+nav a:selected , nav a:hover{
+	color:#32673f;
+}
+body{
+	background-color: #fff;
+        color : #001f46;
+}
+h1{
+	font-family:'changa one',sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight:normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size:0.75em;
+	margin:-5px 0 0;
+	font-weight:normal;
+}
+img{
+	max-width: 100%;
+}
+#gallery{
+
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#gallery li{
+	float:right;
+	width:60%;
+	margin:2%;
+	background-color:#f5f5f5;
+}
+#gallery li a p{
+	padding:5%;
+	margin:0;
+	font-size:0.75em;
+	color: #6ab47b;
+	font-size:25px;
+}
+
+
+.social-media{
+	height:25px;
+	width:25px;
+	margin:0 5px;
+}
+.profile-pic{
+	display:block;
+	max-width: 150px;
+	margin:0 auto 30px;
+	border-radius: 50px;
+}
+h3{
+	margin:0 0 1em 0;
+}
+.contact-info{
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size: 0.9em;
+}
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+.contact-info li.email a{
+	background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+.contact-info a{
+	display:block;
+	min-height:20px;
+	padding:0 0 0 30px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	margin:0 0 10px;
+}
